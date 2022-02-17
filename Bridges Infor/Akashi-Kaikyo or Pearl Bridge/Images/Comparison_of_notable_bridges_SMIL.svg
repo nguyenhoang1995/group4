@@ -1,0 +1,274 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="-1135 -430 2500 600">
+ <title>Comparison of notable bridges SMIL</title>
+ <desc>Comparison of elevations of some notable bridges to scale, centred on (one of) their largest spans with an Airbus A380 and RMS Titanic, by CMG Lee. Hover over or click a label or profile to highlight it, and click the (i) button for its Wikipedia article. Data is derived from their respective Wikipedia articles and http://engineeringcivil.com/wp-content/uploads/2011/09/Akashi-Kaikyo-bridge-2.JPG , http://www.bath.ac.uk/ace/uploads/StudentProjects/Bridgeconference2009/Papers/WEIGHT.pdf , http://www.mostovik.ru/minisites/bosfor/images/fasad.jpg , http://railwaywondersoftheworld.com/wpimages/wpc6683220_05_06.jpg , http://sydney-harbour-bridge.bos.nsw.edu.au/images_content/bridge-loads.png , http://dita2indesign.sourceforge.net/dita_gutenberg_samples/dita_encyclopaedia_britannica/html/entries/images/bridges_13.png and http://etc.usf.edu/clipart/26200/26244/rialto_26244_mth.gif . A380 and Titanic profiles are from http://commons.wikimedia.org/wiki/File:En_mary_titanic.svg .</desc>
+ <style type="text/css">
+  #main         { font-family:Helvetica,Arial,sans-serif; font-size:38px; letter-spacing:-1; text-anchor:middle;
+                  stroke-opacity:0.8; fill-opacity:0.5; fill:none; stroke:none; stroke-linejoin:round; }
+  #main:hover   { stroke-opacity:0.1; fill-opacity:0.1; }
+  .nofade       { stroke-opacity:1;   fill-opacity:1;   }
+  .base         { cursor:default; cursor:-webkit-grab; cursor:grab; }
+  .base:hover,
+  .active:hover { stroke-opacity:1;   fill-opacity:0.9; }
+  .active       { stroke-opacity:0.9; fill-opacity:0.7; visibility:visible;
+                  cursor:-webkit-grabbing; cursor:grabbing; }
+  .pointer      { stroke-width:3;     fill:none; }
+  #akashi       { stroke:#ff33cc;     fill:#ff33cc; }
+  #trajan       { stroke:#cccc00;     fill:#999900; }
+  #chaotianmen  { stroke:#9933ff;     fill:#9933ff; }
+  #belt         { stroke:#3399ff;     fill:#3399ff; }
+  #golden       { stroke:#ff6600;     fill:#ff6600; }
+  #russky       { stroke:#6666ff;     fill:#6666ff; }
+  #forth        { stroke:#cc0000;     fill:#cc0000; }
+  #sydney       { stroke:#333333;     fill:#333333; }
+  #millau       { stroke:#00cc00;     fill:#00cc00; }
+  #tower        { stroke:#009999;     fill:#009999; }
+  #rialto       { stroke:#000000;     fill:#000000; }
+  #scale        { stroke:#333333;     fill:#333333; stroke-width:2; font-size:32px; }
+  text          { stroke:none; }
+ </style>
+ <defs>
+  <linearGradient id="grad_base" x1="0%" y1="0%" x2="0%" y2="100%">
+   <stop offset="0%"   stop-color="#0099ff" stop-opacity="1"/>
+   <stop offset="100%" stop-color="#0099ff" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="grad_link" x1="0%" y1="0%" x2="0%" y2="100%">
+   <stop offset="0%"   stop-color="#0099ff"/>
+   <stop offset="100%" stop-color="#0000ff"/>
+  </linearGradient>
+  <clipPath id="clip_millau">
+   <path d="M -1400,-500 V -200 H -1100 L -550,30 L -150,-140 L 800,-220 L 1400,-340 V -500 Z"/>
+  </clipPath>
+
+  <g id="link" stroke="none" cursor="pointer">
+   <circle cx="0" cy="0" r="17" fill="url(#grad_link)"/>
+   <g fill="#ffffff">
+    <circle cx="0" cy="-9" r="4"/>
+    <rect x="-3" y="-3" width="6" height="15"/>
+   </g>
+  </g>
+  <path id="ruler" d="M 0,-15 V 0 H 100 V -15 M 10,0 V -10 M 20,0 V -10 M 30,0 V -10 M 40,0 V -10 M 50,0 V -15 M 60,0 V -10 M 70,0 V -10 M 80,0 V -10 M 90,0 V -10" fill="none"/>
+  <g id="scale">
+   <g transform="translate(1220,-238)">
+    <use xlink:href="#ruler" transform="scale(1,1)"/>
+    <use xlink:href="#ruler" transform="scale(0.9144,-1)"/>
+    <text x="0" y="-17"><tspan>0</tspan><tspan x="95">100 m</tspan></text>
+    <text x="0" y="40" ><tspan>0</tspan><tspan x="95">300 ft</tspan></text>
+   </g>
+   <g transform="scale(-0.085,0.08) translate(380,-770)">
+    <path transform="translate(-17200,-4400)" d="M 934.32689,611.29968 L 878.76439,612.83093 L 938.35809,777.98723 L 887.85809,785.04973 L 886.32689,815.86223 C 980.10439,839.59003 1073.3593,867.43303 1169.7019,871.92473 L 1243.2956,871.92473 L 1243.2956,877.45593 C 1240.7538,879.07213 1239.0456,881.91023 1239.0456,885.14343 C 1239.0456,890.17053 1243.1122,894.23723 1248.1394,894.23723 C 1253.1665,894.23723 1257.2642,890.17053 1257.2644,885.14343 C 1257.2644,881.91023 1255.556,879.07213 1253.0144,877.45593 L 1253.0144,871.92473 L 1263.6394,871.92473 L 1263.6394,877.45593 C 1261.0975,879.07213 1259.3894,881.91023 1259.3894,885.14343 C 1259.3893,890.17053 1263.4559,894.23723 1268.4831,894.23723 C 1273.5102,894.23723 1277.608,890.17053 1277.6081,885.14343 C 1277.6081,881.91023 1275.8998,879.07213 1273.3581,877.45593 L 1273.3581,871.92473 L 1292.9206,871.92473 L 1292.9206,877.45593 C 1290.3788,879.07213 1288.6706,881.91023 1288.6706,885.14343 C 1288.6706,890.17053 1292.7684,894.23723 1297.7956,894.23723 C 1302.8227,894.23723 1306.9205,890.17053 1306.9206,885.14343 C 1306.9206,881.91023 1305.2123,879.07213 1302.6706,877.45593 L 1302.6706,871.92473 L 1314.1706,871.92473 L 1314.1706,877.45593 C 1311.6288,879.07213 1309.9206,881.91023 1309.9206,885.14343 C 1309.9206,890.17053 1314.0184,894.23723 1319.0456,894.23723 C 1324.0727,894.23723 1328.1705,890.17053 1328.1706,885.14343 C 1328.1706,881.91023 1326.4623,879.07213 1323.9206,877.45593 L 1323.9206,871.92473 L 1348.9206,871.92473 L 1382.8269,881.01843 L 1438.8894,883.01843 C 1447.1572,882.19593 1452.1752,877.95013 1454.0456,870.39343 L 1632.9831,865.89343 L 1632.9831,877.76843 C 1630.4412,879.38463 1628.7331,882.22273 1628.7331,885.45593 C 1628.733,890.48303 1632.7995,894.54973 1637.8269,894.54973 C 1642.8539,894.54973 1646.9517,890.48303 1646.9519,885.45593 C 1646.9518,882.22273 1645.2435,879.38463 1642.7019,877.76843 L 1642.7019,865.64343 L 1673.2331,864.86223 C 1696.2264,860.32143 1713.7143,853.56153 1725.7644,844.64343 C 1728.2709,843.43193 1735.0895,831.24513 1725.7644,820.39343 C 1692.3051,791.11513 1660.63,760.82043 1574.7644,762.33093 L 1128.2644,762.33093 C 1060.6001,759.91963 961.07979,621.62387 934.32689,611.29968 z"/>
+    <path transform="translate(-15200,0)" d="M -282.44097,237.85773 L -229.87842,512.85773 L -460.28472,512.85773 L -460.28472,560.01398 L -485.28472,560.01398 L -484.94097,597.51398 L -660.28472,597.51398 L -660.28472,660.01398 L -806.34722,660.01398 L -806.34722,621.79523 L -1182.441,617.17023 C -1175.6161,651.0604 -1124.3712,688.00118 -1061.3473,696.45148 L -1060.6285,751.45148 C -1096.5799,799.18408 -1099.4614,870.84888 -1052.441,908.23278 L 1650.0591,908.23278 C 2009.2818,900.45318 1934.7142,841.60228 1961.8716,589.67023 L 1491.4966,604.29523 L 1491.4966,642.85773 L 1303.9966,642.85773 L 1303.9966,615.35773 L 1271.4966,615.35773 L 1271.4966,512.85773 L 1145.3091,512.85773 L 1091.6841,237.85773 L 955.96528,237.85773 L 1008.4966,512.85773 L 730.30908,512.85773 L 676.68408,237.85773 L 540.96528,237.85773 L 593.49658,512.85773 L 323.77778,512.85773 L 270.24658,238.35773 L 134.52778,238.35773 L 186.99658,512.85773 L -93.09722,512.85773 L -146.72222,237.85773 L -282.44097,237.85773 z"/>
+   </g>
+   <path d="M 1322,-360 V -390"/>
+   <text x="1360" y="-400" text-anchor="end">Airbus A380</text>
+   <path d="M 1322,15 V 35"/>
+   <text x="1360" y="60" text-anchor="end">RMS Titanic</text>
+  </g>
+
+  <path id="akashi_tower" d="M -995.5,-282.8 V -20 m -35,10 h 70 M -1965,-45 V 0" stroke-width="20" fill="none"/>
+  <g id="belt_half">
+   <path d="M -814,0 L -812,-254 L -810,0" stroke-width="10" fill="none"/>
+   <path d="M -1410,-2 L -1340,-55 L -1305,-2 Z" stroke-width="15" fill="none"/>
+  </g>
+  <g id="golden_tower">
+   <path d="M -640,0    V -10"  stroke-width="25"/>
+   <path d="M -640,-10  V -125" stroke-width="15"/>
+   <path d="M -640,-125 V -165" stroke-width="10"/>
+   <path d="M -640,-165 V -195" stroke-width="8"/>
+   <path d="M -640,-195 V -230" stroke-width="5"/>
+  </g>
+  <g id="russky_half">
+   <path d="M -25,-75 L -552,-315 L -920,-64 L -599,-70 L -552,-195 L -505,-70" stroke-width="3"/>
+   <path d="M -941,-30 V -60 M -551,0 V -5" stroke-width="20"/>
+   <path d="M -941,-65 V -80 M -555,-5 L -551,-316 L -547,-5" stroke-width="8" fill="none"/>
+  </g>
+  <g id="forth_half">
+   <path d="M 0,-100 H -40 L -245,-50 Q -295,-60 -345,-50 L -560,-100 H -605 L -810,-48 V -40 Q -700,-40 -605,-5 H -560 Q -300,-85 -40,-5 H 0" stroke-width="5"/>
+   <path d="M -820,0 V -60 M -605,0 V -5 M -560,0 V -5 M -45,0 V -5" stroke-width="18"/>
+  </g>
+  <g id="chaotianmen_half">
+   <path d="M 0,-160 C -160,-160 -200,-70 -465,-70 Q -330,-70 -275,-12 Q -160,-145 0,-145" stroke-width="5"/>
+   <path d="M -275,0 V -13" stroke-width="20"/>
+  </g>
+  <path id="sydney_pylon" d="M -295,-4 q 0,-85 10,-85 h 10 q 10,0 10,85 Z" stroke-width="3"/>
+  <g id="millau_tower">
+   <path d="M -160,-317 L 0,-410 L 160,-326 L 35,-322 L 0,-380 L -35,-320 Z" stroke-width="3"/>
+   <path d="M -7,0 V -318 L 0,-430 L 7,-318 V -3 M -7,-318 L 0,0 L 7,-318" stroke-width="8" fill="none"/>
+  </g>
+  <path id="tower_tower" d="M -10,0 V -8 H -7 V -52 L -5,-60 L -3,-52 L 0,-65 L 3,-52 L 5,-60 L 7,-52 V -8 H 10 V 0" stroke-width="1"/>
+  <g id="tower_half">
+   <use xlink:href="#tower_tower" transform="translate(-41,0)"/>
+   <use xlink:href="#tower_tower" transform="translate(-137.5,0) scale(0.9,0.5)"/>
+   <path d="M -132,-8 V -21 Q -93,2 -47,-40 V -9" stroke-width="1"/>
+   <path d="M -192,-7 L -32,-9 L -9,-30 L -31,-6 M -173,-1 L -143,-19" stroke-width="3" fill="none"/>
+  </g>
+  <path id="rialto_half" d="M 0,-8 Q -8,-8 -15,0 H -25 V -3 H -23 V -10 L -3,-15 V -16 L 0,-17 V -16 Q -3,-16 -2.5,-9 H 0" stroke-width="1"/>
+  <path id="trajan_span" d="M -22.5,0 V -10 Q 0,-21.5 22.5,-10 V 0 V -15.5 H -22.5 Z" stroke-linejoin="miter" stroke-width="7"/>
+  <g id="trajan_spans">
+   <use xlink:href="#trajan_span" transform="translate(-50,0)"/>
+   <use xlink:href="#trajan_span" transform="translate(  0,0)"/>
+   <use xlink:href="#trajan_span" transform="translate( 50,0)"/>
+  </g>
+  <g id="trajan_half">
+   <use xlink:href="#trajan_spans" transform="translate(150,0)"/>
+   <use xlink:href="#trajan_spans" transform="translate(300,0)"/>
+   <use xlink:href="#trajan_spans" transform="translate(450,0)"/>
+   <use xlink:href="#trajan_spans" transform="translate(541,0) scale(0.2,1)"/>
+   <path d="M 562,0   V -35" stroke-width="11"/>
+   <path d="M 562,-40 V -35" stroke-width="5"/>
+  </g>
+
+  <g id="russky">
+   <use xlink:href="#russky_half"/>
+   <use xlink:href="#russky_half" transform="scale(-1,1)"/>
+   <path d="M -987,-62 Q 0,-85 987,-62" stroke-width="5" fill="none"/>
+   <path d="M 551,-323 V -360" class="pointer"/>
+   <text x="690" y="-400" text-anchor="middle"><tspan>Russky Bridge</tspan><tspan x="690" dy="1em">(Russia, 2008-12)</tspan></text>
+  </g>
+  <g id="akashi">
+   <use xlink:href="#akashi_tower"/>
+   <use xlink:href="#akashi_tower" transform="scale(-1,1)"/>
+   <path d="M -1955.5,-40 C -995.5,-50 -100,-93 0,-93 S 995.5,-70 1955.5,-40" stroke-width="10" fill="none"/>
+   <path d="M -1955.5,-40 C -995.5,-50 -100,-93 0,-93 S 995.5,-70 1955.5,-40 Q 1400,-90 995.5,-282.8 Q 600,-90 0,-100 T -995.5,-282.8 Q -1400,-90 -1955.5,-40" stroke-width="5"/>
+   <path d="M -995.5,-290 V -360" class="pointer"/>
+   <text x="-950" y="-400" text-anchor="middle"><tspan>Akashi Kaiky&#333; Bridge</tspan><tspan x="-950" dy="1em">(Japan, 1988-98)</tspan></text>
+  </g>
+  <g id="belt">
+   <use xlink:href="#belt_half"/>
+   <use xlink:href="#belt_half" transform="scale(-1,1)"/>
+   <path d="M -1500,-50 Q 0,-90 1450,-50" stroke-width="10" fill="none"/>
+   <path d="M -1356,-50 Q 0,-90 1356,-50 Q 1100,-80 812,-254 Q 0,100 -812,-254 Q -1100,-80 -1356,-50" stroke-width="5"/>
+   <path d="M -812,-265 C -812,-360 -600,-260 -600,-360" class="pointer"/>
+   <text x="-490" y="-400" text-anchor="middle"><tspan>Great Belt Fixed Link East Bridge</tspan><tspan x="-490" dy="1em">(Denmark, 1991-98)</tspan></text>
+  </g>
+  <g id="golden">
+   <use xlink:href="#golden_tower"/>
+   <use xlink:href="#golden_tower" transform="scale(-1,1)"/>
+   <path d="M -985,-68 V -64 H -1092 V -68 V -20 A 60,60 0 0 1 -985,-10 Z M 985,-58 V -54 H 1088 V -58 V -25 L 985,-45 H 1080 V -35 Z" stroke-width="8"/>
+   <path d="M -985,-64 Q 0,-80 985,-54" stroke-width="10" fill="none"/>
+   <path d="M -985,-64 Q 0,-80 985,-54 Q 850,-100 640,-227 Q 50,70 -640,-227 Q -880,-105 -985,-64" stroke-width="5"/>
+   <path d="M 640,5 V 30" class="pointer"/>
+   <text x="550" y="60" text-anchor="middle"><tspan>Golden Gate Bridge</tspan><tspan x="550" dy="1em">(USA, 1932-37)</tspan></text>
+  </g>
+  <g id="chaotianmen">
+   <use xlink:href="#chaotianmen_half"/>
+   <use xlink:href="#chaotianmen_half" transform="scale(-1,1)"/>
+   <path d="M -522,-65 H 522" stroke-width="14"/>
+   <path d="M 0,-167 V -360" class="pointer"/>
+   <text x="-35" y="-400" text-anchor="middle"><tspan>Chaotianmen Bridge</tspan><tspan x="-35" dy="1em">(China, 2004-09)</tspan></text>
+  </g>
+  <g id="millau">
+   <g transform="translate(171,19) scale(1,0.87)" clip-path="url(#clip_millau)">
+    <use xlink:href="#millau_tower" transform="translate(-1026,27)"/>
+    <use xlink:href="#millau_tower" transform="translate(-684,18)"/>
+    <use xlink:href="#millau_tower" transform="translate(-342,9)"/>
+    <use xlink:href="#millau_tower"/>
+    <use xlink:href="#millau_tower" transform="translate(342,-9)"/>
+    <use xlink:href="#millau_tower" transform="translate(684,-18)"/>
+    <use xlink:href="#millau_tower" transform="translate(1026,-27)"/>
+    <path d="M -1340,-285 L 1360,-357" stroke-width="5"/>
+   </g>
+   <path d="M 855,-380 Q 855,-410 900,-410" class="pointer"/>
+   <text x="1020" y="-400" text-anchor="middle"><tspan>Millau Viaduct</tspan><tspan x="1020" dy="1em">(France, 2001-04)</tspan></text>
+  </g>
+  <g id="sydney">
+   <use xlink:href="#sydney_pylon"/>
+   <use xlink:href="#sydney_pylon" transform="scale(-1,1)"/>
+   <path d="M -265,-50 Q 0,-60 265,-50" stroke-width="5" fill="none"/>
+   <path d="M -265,-50 H -251 V -66 C -50,-155 50,-155 251,-66 V -50 H 265 V -4 H 252 V -7 Q 0,-225 -252,-7 V -4 H -265 Z" stroke-width="3"/>
+   <path d="M 280,-95 V -360" class="pointer"/>
+   <text x="340" y="-400" text-anchor="middle" fill="#666666"><tspan>Sydney Harbour Bridge</tspan><tspan x="340" dy="1em">(Australia, 1923-32)</tspan></text>
+  </g>
+  <g id="forth">
+   <g transform="translate(300,0)">
+    <use xlink:href="#forth_half"/>
+    <use xlink:href="#forth_half" transform="scale(-1,1)"/>
+    <path d="M -850,-45 H 850" stroke-width="5"/>
+   </g>
+   <path d="M 885,5 V 30" class="pointer"/>
+   <text x="980" y="60" text-anchor="middle"><tspan>Forth Bridge</tspan><tspan x="980" dy="1em">(Scotland,1882-90)</tspan></text>
+  </g>
+  <g id="trajan">
+   <use xlink:href="#trajan_spans"/>
+   <use xlink:href="#trajan_half"/>
+   <use xlink:href="#trajan_half" transform="scale(-1,1)"/>
+   <path d="M -562,5 V 30" class="pointer"/>
+   <text x="-550" y="60" text-anchor="middle"><tspan>Trajan's Bridge</tspan><tspan x="-550" dy="1em">(Romania,103-05)</tspan></text>
+  </g>
+  <g id="tower">
+   <use xlink:href="#tower_half"/>
+   <use xlink:href="#tower_half" transform="scale(-1,1)"/>
+   <use xlink:href="#tower_half"/>
+   <use xlink:href="#tower_half" transform="scale(-1,1)"/>
+   <path d="M -35,-43 H 35" stroke-width="5"/>
+   <path d="M 41,5 V 30" class="pointer"/>
+   <text x="150" y="60" text-anchor="middle"><tspan>Tower Bridge</tspan><tspan x="150" dy="1em">(England,1886-94)</tspan></text>
+  </g>
+  <g id="rialto">
+   <use xlink:href="#rialto_half"/>
+   <use xlink:href="#rialto_half" transform="scale(-1,1)"/>
+   <use xlink:href="#rialto_half"/>
+   <use xlink:href="#rialto_half" transform="scale(-1,1)"/>
+   <path d="M -20,5 V 30" class="pointer"/>
+   <text x="-140" y="60" text-anchor="middle"><tspan>Rialto Bridge</tspan><tspan x="-140" dy="1em">(Italy,1588-91)</tspan></text>
+  </g>
+  <set xlink:href="#object0a" attributeName="class" to="active" begin="object0b.click" end="object0a.click"/>
+  <set xlink:href="#object1a" attributeName="class" to="active" begin="object1b.click" end="object1a.click"/>
+  <set xlink:href="#object2a" attributeName="class" to="active" begin="object2b.click" end="object2a.click"/>
+  <set xlink:href="#object3a" attributeName="class" to="active" begin="object3b.click" end="object3a.click"/>
+  <set xlink:href="#object4a" attributeName="class" to="active" begin="object4b.click" end="object4a.click"/>
+  <set xlink:href="#object5a" attributeName="class" to="active" begin="object5b.click" end="object5a.click"/>
+  <set xlink:href="#object6a" attributeName="class" to="active" begin="object6b.click" end="object6a.click"/>
+  <set xlink:href="#object7a" attributeName="class" to="active" begin="object7b.click" end="object7a.click"/>
+  <set xlink:href="#object8a" attributeName="class" to="active" begin="object8b.click" end="object8a.click"/>
+  <set xlink:href="#object9a" attributeName="class" to="active" begin="object9b.click" end="object9a.click"/>
+  <set xlink:href="#objectsa" attributeName="class" to="active" begin="objectsb.click" end="objectsa.click"/>
+  <set xlink:href="#objectAa" attributeName="class" to="active" begin="objectAb.click" end="objectAa.click"/>
+ </defs>
+
+ <g id="main">
+  <g class="nofade">
+   <rect x="-4999" y="-4999" width="9999" height="9999" fill="#ffffff"/>
+   <rect x="-4999" y="-0" width="9999" height="35" fill="url(#grad_base)"/>
+   <text x="-80" y="-190" fill="#fefefe"><tspan>&#169; 2016</tspan><tspan x="80">CMG Lee</tspan></text>
+   <use xlink:href="#scale" fill-opacity="0.5"/>
+  </g>
+  <use id="object0b" class="base"        xlink:href="#russky"     ><title>Click to highlight the Russky Bridge</title>            </use>
+  <use id="object1b" class="base"        xlink:href="#akashi"     ><title>Click to highlight the Akashi Kaiky&#333; Bridge</title></use>
+  <use id="object2b" class="base"        xlink:href="#trajan"     ><title>Click to highlight Trajan's Bridge</title>              </use>
+  <use id="object3b" class="base"        xlink:href="#golden"     ><title>Click to highlight the Golden Gate Bridge</title>       </use>
+  <use id="object4b" class="base"        xlink:href="#chaotianmen"><title>Click to highlight the Chaotianmen Bridge</title>       </use>
+  <use id="object5b" class="base"        xlink:href="#millau"     ><title>Click to highlight the Millau Viaduct</title>           </use>
+  <use id="object6b" class="base"        xlink:href="#forth"      ><title>Click to highlight the Forth Bridge</title>             </use>
+  <use id="object7b" class="base"        xlink:href="#sydney"     ><title>Click to highlight the Sydney Harbour Bridge</title>    </use>
+  <use id="object8b" class="base"        xlink:href="#tower"      ><title>Click to highlight the Tower Bridge</title>             </use>
+  <use id="object9b" class="base"        xlink:href="#rialto"     ><title>Click to highlight the Rialto Bridge</title>            </use>
+  <use id="objectAb" class="base"        xlink:href="#belt"       ><title>Click to highlight the East Bridge</title>              </use>
+  <!--
+  <use id="objectsb" class="base"        xlink:href="#scale"      ><title>Click to highlight the scale</title>                    </use>
+  <use id="objectsa" visibility="hidden" xlink:href="#scale"      ><title>Stop highlighting the scale</title>                     </use>
+  -->
+  <use id="object0a" visibility="hidden" xlink:href="#russky"     ><title>Stop highlighting the Russky Bridge</title>             </use>
+  <use id="object1a" visibility="hidden" xlink:href="#akashi"     ><title>Stop highlighting the Akashi Kaiky&#333; Bridge</title> </use>
+  <use id="object2a" visibility="hidden" xlink:href="#trajan"     ><title>Stop highlighting Trajan's Bridge</title>               </use>
+  <use id="object3a" visibility="hidden" xlink:href="#golden"     ><title>Stop highlighting the Golden Gate Bridge</title>        </use>
+  <use id="object4a" visibility="hidden" xlink:href="#chaotianmen"><title>Stop highlighting the Chaotianmen Bridge</title>        </use>
+  <use id="object5a" visibility="hidden" xlink:href="#millau"     ><title>Stop highlighting the Millau Viaduct</title>            </use>
+  <use id="object6a" visibility="hidden" xlink:href="#forth"      ><title>Stop highlighting the Forth Bridge</title>              </use>
+  <use id="object7a" visibility="hidden" xlink:href="#sydney"     ><title>Stop highlighting the Sydney Harbour Bridge</title>     </use>
+  <use id="object8a" visibility="hidden" xlink:href="#tower"      ><title>Stop highlighting the Tower Bridge</title>              </use>
+  <use id="object9a" visibility="hidden" xlink:href="#rialto"     ><title>Stop highlighting the Rialto Bridge</title>             </use>
+  <use id="objectAa" visibility="hidden" xlink:href="#belt"       ><title>Stop highlighting the East Bridge</title>               </use>
+  <a target="info" xlink:href="http://en.wikipedia.org/wiki/Russky_Bridge"            ><use xlink:href="#link" transform="translate( 680,-337)"/><title>Russky Bridge Wikipedia article</title></a>
+  <a target="info" xlink:href="http://en.wikipedia.org/wiki/Akashi_Kaiky%C5%8D_Bridge"><use xlink:href="#link" transform="translate(-950,-337)"/><title>Akashi Kaiky&#333; Bridge Wikipedia article</title></a>
+  <a target="info" xlink:href="http://en.wikipedia.org/wiki/Trajan's_Bridge"          ><use xlink:href="#link" transform="translate(-400,  45)"/><title>Trajan's Bridge Wikipedia article</title></a>
+  <a target="info" xlink:href="http://en.wikipedia.org/wiki/Golden_Gate_Bridge"       ><use xlink:href="#link" transform="translate( 745,  45)"/><title>Golden Gate Bridge Wikipedia article</title></a>
+  <a target="info" xlink:href="http://en.wikipedia.org/wiki/Chaotianmen_Bridge"       ><use xlink:href="#link" transform="translate( -35,-337)"/><title>Chaotianmen Bridge Wikipedia article</title></a>
+  <a target="info" xlink:href="http://en.wikipedia.org/wiki/Millau_Viaduct"           ><use xlink:href="#link" transform="translate(1020,-337)"/><title>Millau Viaduct Wikipedia article</title></a>
+  <a target="info" xlink:href="http://en.wikipedia.org/wiki/Forth_Bridge"             ><use xlink:href="#link" transform="translate(1110,  45)"/><title>Forth Bridge Wikipedia article</title></a>
+  <a target="info" xlink:href="http://en.wikipedia.org/wiki/Sydney_Harbour_Bridge"    ><use xlink:href="#link" transform="translate( 340,-337)"/><title>Sydney Harbour Bridge Wikipedia article</title></a>
+  <a target="info" xlink:href="http://en.wikipedia.org/wiki/Tower_Bridge"             ><use xlink:href="#link" transform="translate( 280,  45)"/><title>Tower Bridge Wikipedia article</title></a>
+  <a target="info" xlink:href="http://en.wikipedia.org/wiki/Rialto_Bridge"            ><use xlink:href="#link" transform="translate( -10,  45)"/><title>Rialto Bridge Wikipedia article</title></a>
+  <a target="info" xlink:href="http://en.wikipedia.org/wiki/Great_Belt_Fixed_Link#East_Bridge"><use xlink:href="#link" transform="translate(-490,-337)"/><title>Read its Wikipedia article</title></a>
+ </g>
+</svg>

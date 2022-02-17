@@ -1,0 +1,275 @@
+<div ng-controller="CTRL">
+    <div class="carousel_slide">
+        <!-- Carousel -->
+        <div id="demo" class="carousel slide row" data-bs-ride="carousel">
+
+            <!-- Indicators/dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+
+            </div>
+
+            <!-- The slideshow/carousel -->
+
+            <div class="carousel-inner ">
+
+                <div class="carousel-item active">
+                    <img src="Bridges Infor/Brooklyn Bridge/Images/alexander-rotker--sQ4FsomXEs-unsplash.jpg"
+                        alt="Infinite Bridge" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Brooklyn Bridge</h3>
+                        <p>America</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Bridges Infor/Akashi-Kaikyo or Pearl Bridge/Images/Akashi_Bridge.jpg"
+                        alt="Golden Gate Bridge" class="d-block" style="width:100%; height:inherit; ">
+                    <div class="carousel-caption">
+                        <h3>Akashi-Kaikyo or Pearl Bridge</h3>
+                        <p>Japan</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Bridges Infor/Gateshead Millennium Bridge/Images/millennium-bridge-263147_1280.jpg"
+                        alt="Viaduc de Millau Bridge" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Gateshead Millennium Bridge</h3>
+                        <p>England</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Bridges Infor/Golden Gate Bridge/Images/5332x3725.jpg" alt="San Shan Bridge"
+                        class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Golden Gate Bridge</h3>
+                        <p>America</p>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <img src="Bridges Infor/Infinite Bridge/Images/Infinite3.jpeg" alt="San Shan Bridge" class="d-block"
+                        style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Infinite Bridge</h3>
+                        <p>England</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Bridges Infor/Ponte Vecchio/Images/mark-tegethoff-l-GmdF7Md0o-unsplash.jpg"
+                        alt="San Shan Bridge" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Ponte Vecchio Bridge</h3>
+                        <p>Italy</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Bridges Infor/San Shan Bridge/Images/San Shan 3.jpeg" alt="San Shan Bridge"
+                        class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>San Shan Bridge</h3>
+                        <p>China</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Bridges Infor/Sydney Harbour Bridge/Images/benjamin-sow-ZsH1wHv2iTU-unsplash.jpg"
+                        alt="San Shan Bridge" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Sydney Harbour Bridge</h3>
+                        <p>Australia</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Bridges Infor/Tsing Ma Bridge/Images/istockphoto-963389556-170667a.jpg"
+                        alt="San Shan Bridge" class="d-block" style="width:100%">
+                    <div class="carousel-caption">
+                        <h3>Tsing Ma Bridge</h3>
+                        <p>Hong Kong</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Left and right controls/icons -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </div>
+    <div class="row under_carosel">
+        <h3> <i class="fas fa-hand-point-up"></i> Famous Bridges Here!!! <i class="fas fa-hand-point-up"></i></h3>
+    </div>
+
+    <!-- Filter, Content, Ads -->
+    <div class="row" style="margin:30px 0;">
+        <div class="row">
+            <a href="https://www.easemytrip.com/coupon.html" target="new">
+                <h3>Grab 5% Instant Discount on Flight Booking with EaseMyTrip</h3>
+            </a>
+        </div>
+        <div class="row" id="content_top_ads"><a href="https://www.easemytrip.com/coupon.html" target="new"><img
+                    src="flight booking 2.png"></a></div>
+        <!-- Filter -->
+
+        <div class="row" ng-controller='searchCTR'>
+            <div class="col-md-2">
+                <div class="frmFiled">
+
+                    <input type="text" class="frmInput" name="sname" id="sname" ng-model="searchName"
+                        placeholder="search Name ">
+                    <div style="margin-left: 4px;">
+                        <i class="far fa-search"></i>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="row">
+                    <span
+                        style="font-family: cursive; text-shadow:0px 5px 3px rgb(184 147 78);font-weight: normal;">Sort
+                        by:</span> <br>
+                    <div class=" search">
+
+                        <input type="radio" class="sort" name="sort" ng-model="sort" value="name"><span> Name</span><br>
+                        <input type="radio" class="sort" name="sort" ng-model="sort" value="rlength"><span>
+                            Length</span><br>
+                        <input type="radio" class="sort" name="sort" ng-model="sort" value="rheight"><span>
+                            Height</span><br><br>
+                    </div>
+
+                    <span
+                        style="font-family: cursive; text-shadow:0px 5px 3px rgb(184 147 78);font-weight: normal;">Search
+                        National:</span> <br>
+                    <div class="search">
+                        <input type="radio" class="sort" name="sort" ng-model="nation" value="Japan"><img id="flag"
+                            src="https://cdn.countryflags.com/thumbs/japan/flag-400.png"> Japan<br>
+                        <input type="radio" class="sort" name="sort" ng-model="nation" value="America"><img id="flag"
+                            src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png">
+                        Armerica<br>
+                        <input type="radio" class="sort" name="sort" ng-model="nation" value="Italy"><img id="flag"
+                            src="https://cdn.countryflags.com/thumbs/italy/flag-400.png"> Italy<br>
+                        <input type="radio" class="sort" name="sort" ng-model="nation" value="England"><img id="flag"
+                            src="https://cdn.countryflags.com/thumbs/england/flag-400.png"> England<br>
+                        <input type="radio" class="sort" name="sort" ng-model="nation" value="Hong Kong"><img id="flag"
+                            src="https://cdn.countryflags.com/thumbs/hongkong/flag-400.png"> HongKong<br>
+                        <input type="radio" class="sort" name="sort" ng-model="nation" value="China"><img id="flag"
+                            src="https://cdn.countryflags.com/thumbs/china/flag-400.png"> China<br>
+                        <input type="radio" class="sort" name="sort" ng-model="nation" value="France"><img id="flag"
+                            src="https://cdn.countryflags.com/thumbs/france/flag-400.png"> France<br>
+                        <input type="radio" class="sort" name="sort" ng-model="nation" value="Australia"><img id="flag"
+                            src="https://cdn.countryflags.com/thumbs/australia/flag-400.png"> Australia<br><br>
+                    </div>
+                    <div class="clear">
+
+                        <input
+                            style="font-family: cursive; text-shadow:0px 5px 3px rgb(184 147 78);font-weight: normal;"
+                            type="button" id="btnSubmit" value="CLEAR FILTER" ng-click='reset()'><br>
+
+                    </div>
+                </div>
+
+            </div>
+            <!-- Content -->
+            <div class="col-md-8 content">
+                <div class="row" id="content_parts"
+                    ng-repeat="x in ds | filter:{name: searchName, country: nation} | orderBy: sort">
+                    <div class="col-sm-6 " id=content_imgs>
+                        <img src="{{x.pic1}}" alt="Viaduc de Millau" class="d-block" style="width:100%">
+                    </div>
+
+
+                    <div class="col-sm-6" id="content_info">
+                        <div class="row">
+                            <h5>{{x.name}}</h5>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-1 col-sm-2">
+                                <ul>
+                                    <li><i class="far fa-calendar-alt"></i></li>
+                                    <li><i class="fas fa-ruler"></i> </li>
+                                    <li><i class="fas fa-city"></i> </li>
+                                    <li><i class="fas fa-globe-americas"></i></li>
+                                    <li><i class="fas fa-arrows-alt-v"></i> </li>
+                                </ul>
+                            </div>
+                            <div class="col-9 ">
+                                <ul>
+                                    <li><span> build: </span>{{x.build}}</li>
+                                    <li><span>length: </span>{{x.length}}</li>
+                                    <li><span>city: </span>{{x.city}}</li>
+                                    <li><span>country: </span>{{x.country}}</li>
+                                    <li><span>height: </span>{{x.height}}</li>
+                                    <button class="btn btn-primary" id="{{x.id}}" ng-click="view(x.id)">click to see
+                                        more</button>
+
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- ads -->
+            <div class="col-md-2 ">
+                <div class="col">
+                    <a href="https://www.easemytrip.com/coupon.html" class="content_ads" target="_blank"><img
+                            src="flight booking.png" alt="ads flight"></a>
+
+                    <a href="https://vaniks.com/home/product_view/774/Online-Bus-booking-and-Reservation-system"
+                        class="content_ads" target="_blank"><img src="bus booking.jpeg" alt="ads bus"></a>
+                </div>
+
+                <div class="col"> </div>
+
+            </div>
+        </div>
+        <!-- Modal-->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <!-- <div class="modal-dialog modal-lg"> -->
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h2 class="modal-title" id="exampleModalLongTitle">{{name}}</h2>
+                        <!-- <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button> -->
+                    </div>
+                    <div class="modal-body">
+
+                        <div>
+                            <!-- <h2 class="text-black-1">{{name}} </h2> -->
+                            <iframe src="{{infor1}}" style="width:100%; height:520px;" frameborder="0"></iframe>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- dowload button -->
+
+                        
+                        <!-- close button -->
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
