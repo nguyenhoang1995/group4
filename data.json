@@ -38,7 +38,7 @@
             "height":"45m",
             "rheight":45,
             "pic1":"Bridges Infor/Gateshead Millennium Bridge/Images/Gateshead_millennium_bridge_open.jpg",
-            "infor1":" b "
+            "infor1":" Bridges Infor/Gateshead Millennium Bridge/Information/Gateshead-Millennium-Bridge.pdf"
           },
           { "id": 4,
             "name": "Golden Gate",
@@ -51,7 +51,7 @@
             "height":"227,4 m",
             "rheight":227.4,
             "pic1":"Bridges Infor/Golden Gate Bridge/Images/3543x1772.jpg",
-            "infor1":" b "
+            "infor1":" Bridges Infor/Golden Gate Bridge/Information/Golden Gate Infor.pdf "
           },
           { "id": 5,
             "name": "Infinite",
@@ -64,7 +64,7 @@
             "height":"40 m",
             "rheight":40,
             "pic1":"Bridges Infor/Infinite Bridge/Images/Infinite2.jpeg",
-            "infor1":" b "
+            "infor1":" Bridges Infor/Infinite Bridge/Information/Infinite Infor.pdf "
            
           },
           { "id": 6,
@@ -78,7 +78,7 @@
             "height":"4.4 m",
             "rheight":4.4,
             "pic1":"Bridges Infor/Ponte Vecchio/Images/faruk-kaymak-wtj5WMvX2Gc-unsplash.jpg",
-            "infor1":" b "
+            "infor1":" Bridges Infor/Ponte Vecchio/Information/Ponte Vecchio.pdf "
            
           },
           { "id": 7,
@@ -92,7 +92,7 @@
             "height":"91 m",
             "rheight":91,
             "pic1":"Bridges Infor/San Shan Bridge/Images/San Shan 3.jpeg",
-            "infor1":" b "
+            "infor1":" Bridges Infor/San Shan Bridge/Information/San Shan Infor.pdf "
            
           },
           { "id": 8,
@@ -106,7 +106,7 @@
             "height":"134 m",
             "rheight":134,
             "pic1":"Bridges Infor/Sydney Harbour Bridge/Images/april-pethybridge-KeDdztmEqVc-unsplash.jpg",
-            "infor1":" b "
+            "infor1":" Bridges Infor/Sydney Harbour Bridge/Information/Sydney Harbour Bridge.pdf "
            
           },
           { "id": 9,
@@ -120,7 +120,7 @@
             "height":"206 m",
             "rheight":206,
             "pic1":"Bridges Infor/Tsing Ma Bridge/Images/490951.jpg",
-            "infor1":" b "
+            "infor1":" Bridges Infor/Tsing Ma Bridge/information/Tsing Ma Bridge.pdf "
            
           },
           { "id": 10,
@@ -134,7 +134,7 @@
             "height":"336,4 m",
             "rheight":336.4,
             "pic1":"Bridges Infor/Viaduc de Millau Bridge/Images/Viaduc de Millau1.jpeg",
-            "infor1":" b "
+            "infor1":" Bridges Infor/Viaduc de Millau Bridge/Information/Viaduc de Millau Infor.pdf "
           }
     ]
 }
