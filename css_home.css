@@ -194,7 +194,7 @@ a{
 }
 
 #content_parts:hover {
-    box-shadow: 1px 1px 10px #dad7d7;
+    box-shadow: 1px 1px 10px #b9b6b6;
 }
 
 
@@ -224,7 +224,7 @@ a{
 
 
 #content_info {
-    /* border-left: rgb(177, 170, 170) double; */
+    
     padding: 5px 0px 0px 30px;
     
     
@@ -432,7 +432,7 @@ div.row.rating{
 footer {
     background-color: #3586ff;
     padding: 40px;
-    color: white;
+    color: rgb(250, 246, 246);
     position: relative;
     width: 100%;
     min-height: 100px;
@@ -478,6 +478,7 @@ footer .wave{
     height: 50%;
     background: url(wave.png);
     background-size: 1000px 100px;
+  
 }
 footer .wave#wave1{
     z-index: 1000;
@@ -520,7 +521,7 @@ footer .wave#wave4{
         background-position-x: 1000px;
     }
 }
-/* responsive for divices */
+/* responsive for small devices */
 @media only screen and (max-width:767px) {
     .content_ads img{
         max-width: 49%;
@@ -538,6 +539,12 @@ footer .wave#wave4{
     .carousel_slide .carousel {
         height: 230px;
     }
+    div.carousel-caption p{
+        display: none;
+    }
+    .fa-hand-point-up:before {
+        display: none;
+    }
 
     #content_top_ads {
         display: none;
@@ -549,12 +556,20 @@ footer .wave#wave4{
     .search{
         flex-direction: column;
     }
+    #content_parts{
+        height: auto;
+    }
+    #content_imgs{
+      height: 200px;
+    }
     #content_info {
        
-        padding: 5px 0px 30px 30px;
+        /* padding: 5px 0px 30px 30px; */
+    height: 200px;
     }
+
     footer .wave{
-        top: -90px;
+        top: -100px;
         
     }
     p.footer_love{
