@@ -142,36 +142,44 @@
                             National:</span> <br>
                         <div class="search">
                             <!--  -->
-                           
-                                <div class="filter">
-                                    <input type="checkbox" id="fil" ng-model="cat1" value="japan" checked ng-click="choose()" class="cat"><img id="flag"
+
+                            <div class="filter">
+                                <input type="checkbox" id="fil" ng-model="cat1" value="japan" checked
+                                    ng-click="choose()" class="cat"><img id="flag"
                                     src="https://cdn.countryflags.com/thumbs/japan/flag-400.png"> Japan <br>
-                                    <input type="checkbox" id="fil" ng-model="cat2" value="america" checked ng-click="choose()" class="cat"><img
-                                    id="flag"
-                                    src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png"> America
-                                    <br>
-                                    <input type="checkbox" id="fil" ng-model="cat3" value="italy" checked ng-click="choose()" class="cat"><img id="flag"
+                                <input type="checkbox" id="fil" ng-model="cat2" value="america" checked
+                                    ng-click="choose()" class="cat"><img id="flag"
+                                    src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png">
+                                America
+                                <br>
+                                <input type="checkbox" id="fil" ng-model="cat3" value="italy" checked
+                                    ng-click="choose()" class="cat"><img id="flag"
                                     src="https://cdn.countryflags.com/thumbs/italy/flag-400.png"> Italy
-                                    <br>
-                                    <input type="checkbox" id="fil" ng-model="cat4" value="england" checked ng-click="choose()" class="cat"><img
-                                    id="flag" src="https://cdn.countryflags.com/thumbs/england/flag-400.png"> England
-                                    <br>
-                                    <input type="checkbox" id="fil" ng-model="cat5" value="hongkong" checked ng-click="choose()" class="cat"><img
-                                    id="flag" src="https://cdn.countryflags.com/thumbs/hongkong/flag-400.png"> HongKong
-                                    <br>
-                                    <input type="checkbox" id="fil" ng-model="cat6" value="china" checked ng-click="choose()" class="cat"><img id="flag"
+                                <br>
+                                <input type="checkbox" id="fil" ng-model="cat4" value="england" checked
+                                    ng-click="choose()" class="cat"><img id="flag"
+                                    src="https://cdn.countryflags.com/thumbs/england/flag-400.png"> England
+                                <br>
+                                <input type="checkbox" id="fil" ng-model="cat5" value="hongkong" checked
+                                    ng-click="choose()" class="cat"><img id="flag"
+                                    src="https://cdn.countryflags.com/thumbs/hongkong/flag-400.png"> HongKong
+                                <br>
+                                <input type="checkbox" id="fil" ng-model="cat6" value="china" checked
+                                    ng-click="choose()" class="cat"><img id="flag"
                                     src="https://cdn.countryflags.com/thumbs/china/flag-400.png"> China
-                                    <br>
-                                    <input type="checkbox" id="fil" ng-model="cat7" value="france" checked ng-click="choose()" class="cat"><img id="flag"
+                                <br>
+                                <input type="checkbox" id="fil" ng-model="cat7" value="france" checked
+                                    ng-click="choose()" class="cat"><img id="flag"
                                     src="https://cdn.countryflags.com/thumbs/france/flag-400.png"> France
-                                    <br>
-                                    <input type="checkbox" id="fil" ng-model="cat8" value="australia" checked ng-click="choose()" class="cat"><img
-                                    id="flag" src="https://cdn.countryflags.com/thumbs/australia/flag-400.png"> Australia
-                                    <br>
-                                </div>
-                            
-                            
-                            
+                                <br>
+                                <input type="checkbox" id="fil" ng-model="cat8" value="australia" checked
+                                    ng-click="choose()" class="cat"><img id="flag"
+                                    src="https://cdn.countryflags.com/thumbs/australia/flag-400.png"> Australia
+                                <br>
+                            </div>
+
+
+
                         </div>
 
                     </div>
@@ -182,10 +190,15 @@
 
                             <input type="radio" class="sort" id="fil" name="sort" ng-model="sort" value="name"><span>
                                 Name</span><br>
-                            <input type="radio" class="sort" id="fil" name="sort" ng-model="sort" value="rlength"><span>
-                                Length</span><br>
-                            <input type="radio" class="sort" id="fil" name="sort" ng-model="sort" value="rheight"><span>
-                                Height</span><br><br>
+                            <input type="radio" class="sort" id="fil" name="sort" ng-model="sort"
+                                value="-rlength"><span>
+                                Longest</span><br>
+                            <input type="radio" class="sort" id="fil" name="sort" ng-model="sort"
+                                value="-rheight"><span>
+                                Highest</span><br>
+                            <input type="radio" class="sort" id="fil" name="sort" ng-model="sort"
+                                value="-old"><span>
+                                Oldest</span><br><br>
                         </div>
                         <div class="clear">
 
@@ -229,6 +242,7 @@
                                     <li><span>city: </span>{{x.city}}</li>
                                     <li><span>country: </span>{{x.country}}</li>
                                     <li><span>height: </span>{{x.height}}</li>
+                                    <li><span>age: </span>{{x.old}} years</li>
                                     <span><button class="btn btn-primary" id="{{x.id}}" ng-click="view(x.id)">click to
                                             see
                                             more</button></span>
@@ -271,7 +285,7 @@
                     <div class="modal-body">
 
                         <div>
-                            <!-- <h2 class="text-black-1">{{name}} </h2> -->
+                          
                             <iframe src="{{infor1}}" style="width:100%; height:520px;" frameborder="0"></iframe>
 
                         </div>

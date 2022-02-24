@@ -8,12 +8,13 @@
             "country": "Japan",
             "length": "3911 m",
             "rlength": 3911,
-            "old": "24 years",
+            "old": 24,
             "height":"282.8 m ",
             "rheight":282.8,
             "pic1":"Bridges Infor/Akashi-Kaikyo or Pearl Bridge/Images/Akashi_Bridge.jpg",
             "infor1":"Bridges Infor/Akashi-Kaikyo or Pearl Bridge/Information/Akashi-Kaikyo or Pearl Bridge.pdf",
-            "type": "japan"
+            "type": "japan",
+            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.47367883387!2d135.01948641464574!3d34.61746828045594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000824134f53bcd%3A0xaeaac1c733d78c3f!2sC%E1%BA%A7u%20Akashi-Kaikyo!5e0!3m2!1svi!2s!4v1645704816226!5m2!1svi!2s"
            },
           { "id": 2,
             "name": "Brooklyn",
@@ -22,12 +23,13 @@
             "country": "America",
             "length": "1834 m",
             "rlength": 1834,
-            "old":"139 years",
+            "old":139,
             "height":"82,9 m",
             "rheight":82.9, 
             "pic1":"Bridges Infor/Brooklyn Bridge/Images/Brooklyn_Bridge_Manhattan.jpg",
             "infor1":"Bridges Infor/Brooklyn Bridge/Information/Brooklyn Bridge.pdf",
-            "type": "america"
+            "type": "america",
+            "map":"b"
           },
           { "id": 3,
             "name": "Gateshead Millennium",
@@ -36,12 +38,13 @@
             "country": "England",
             "length": "126 m",
             "rlength": 126,
-            "old": "21 years",
+            "old": 21 ,
             "height":"45m",
             "rheight":45,
             "pic1":"Bridges Infor/Gateshead Millennium Bridge/Images/Gateshead_millennium_bridge_open.jpg",
             "infor1":" Bridges Infor/Gateshead Millennium Bridge/Information/Gateshead-Millennium-Bridge.pdf",
-            "type": "england"
+            "type": "england",
+            "map":"b"
           },
           { "id": 4,
             "name": "Golden Gate",
@@ -50,12 +53,13 @@
             "country": "America",
             "length": "1,280 m",
             "rlength": 1280,
-            "old": "85 years",
+            "old": 85,
             "height":"227,4 m",
             "rheight":227.4,
             "pic1":"Bridges Infor/Golden Gate Bridge/Images/3543x1772.jpg",
             "infor1":" Bridges Infor/Golden Gate Bridge/Information/Golden Gate Infor.pdf ",
-            "type": "america"
+            "type": "america",
+            "map":"b"
           },
           { "id": 5,
             "name": "Infinite",
@@ -64,12 +68,13 @@
             "country": "England",
             "length": "240 m",
             "rlength": 240,
-            "old": "14 years",
+            "old": 14,
             "height":"40 m",
             "rheight":40,
             "pic1":"Bridges Infor/Infinite Bridge/Images/Infinite2.jpeg",
             "infor1":" Bridges Infor/Infinite Bridge/Information/Infinite Infor.pdf ",
-            "type": "england"
+            "type": "england",
+            "map":"b"
            
           },
           { "id": 6,
@@ -79,26 +84,28 @@
             "country": "Italy",
             "length":"95 m",
             "rlength":95,
-            "old": "14 years",
+            "old": 677,
             "height":"4.4 m",
             "rheight":4.4,
             "pic1":"Bridges Infor/Ponte Vecchio/Images/faruk-kaymak-wtj5WMvX2Gc-unsplash.jpg",
             "infor1":" Bridges Infor/Ponte Vecchio/Information/Ponte Vecchio.pdf ",
-            "type": "italy"
+            "type": "italy",
+            "map":"b"
           },
           { "id": 7,
             "name": "San Shan",
-            "build":"2022",
+            "build":"2021",
             "city": "Beijing",
             "country": "China",
             "length": "452 m",
             "rlength": 452,
-            "old": "14 years",
+            "old": 1,
             "height":"91 m",
             "rheight":91,
             "pic1":"Bridges Infor/San Shan Bridge/Images/San Shan 3.jpeg",
             "infor1":" Bridges Infor/San Shan Bridge/Information/San Shan Infor.pdf ",
-            "type": "china"
+            "type": "china",
+            "map":"b"
           },
           { "id": 8,
             "name": "SYDNEY HARBOUR ",
@@ -107,12 +114,13 @@
             "country": "Australia",
             "length": "1.149 m ",
             "rlength": 1149,
-            "old": "14 years",
+            "old": 90,
             "height":"134 m",
             "rheight":134,
             "pic1":"Bridges Infor/Sydney Harbour Bridge/Images/leio-mclaren-ImhjEeh7pZg-unsplash.jpg",
             "infor1":" Bridges Infor/Sydney Harbour Bridge/Information/Sydney Harbour Bridge.pdf ",
-            "type": "australia"
+            "type": "australia",
+            "map":"b"
           },
           { "id": 9,
             "name": "TSING MA BRIDGE",
@@ -121,12 +129,13 @@
             "country": "Hong Kong",
             "length": "2160 m",
             "rlength": 2160,
-            "old": "14 years",
+            "old": 25,
             "height":"206 m",
             "rheight":206,
             "pic1":"Bridges Infor/Tsing Ma Bridge/Images/Tsing_Ma_Bridge_2.jpg",
             "infor1":" Bridges Infor/Tsing Ma Bridge/information/Tsing Ma Bridge.pdf ",
-            "type": "hongkong"
+            "type": "hongkong",
+            "map":"b"
            
           },
           { "id": 10,
@@ -136,12 +145,13 @@
             "country": "France",
             "length": "2460 m",
             "rlength": 2460,
-            "old": "14 years",
+            "old": 18,
             "height":"336,4 m",
             "rheight":336.4,
             "pic1":"Bridges Infor/Viaduc de Millau Bridge/Images/Viaduc de Millau1.jpeg",
             "infor1":" Bridges Infor/Viaduc de Millau Bridge/Information/Viaduc de Millau Infor.pdf ",
-            "type": "france"
+            "type": "france",
+            "map":"b"
           }
     ]
 }

@@ -40,7 +40,9 @@ app.controller('CTRL', function ($scope,$rootScope) {
         console.log(bridge);
         
         $scope.name = bridge.name;
+       
         $scope.infor1 = bridge.infor1;
+        $scope.map = bridge.map;
         $('#myModal').modal('show');
     }
     
