@@ -20,7 +20,7 @@ github report link: https://nguyenhoang1995.github.io/group4/Document
 
 ============================
 
-eProject published at https://nguyenhoang1995.github.io/group4
+eProject published at https://nguyenhoang1995.github.io/group4/
 
 ============================
 
