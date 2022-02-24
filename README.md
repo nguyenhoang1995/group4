@@ -16,11 +16,11 @@ Project title: AMAZING BRIDGE
              Le Tran Viet Thu (vietthukt@gmail.com ) Student1345176
 ============================
 
-github report link: https://nguyenhoang1995.github.io/group4/Document/
+github report link: https://nguyenhoang1995.github.io/group4/Document
 
 ============================
 
-eProject published at https://nguyenhoang1995.github.io/group4/
+eProject published at https://nguyenhoang1995.github.io/group4
 
 ============================
 
