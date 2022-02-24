@@ -23,8 +23,7 @@ app.run(function ($rootScope, $http) {
     });
 });
 app.controller('searchCTR', function ($scope) {
-    // $scope.sort = '';
-    // $scope.nation = '';
+   
     $scope.reset = function () {
         $scope.sort = '';
         $scope.nation = '';
@@ -39,7 +38,7 @@ app.controller('CTRL', function ($scope,$rootScope) {
         console.log(id);
         let bridge = $scope.ds.find(el => el.id == id);
         console.log(bridge);
-        // alert(bridge);
+        
         $scope.name = bridge.name;
         $scope.infor1 = bridge.infor1;
         $('#myModal').modal('show');

@@ -684,3 +684,12 @@ footer .wave#wave4{
     }
     
 }
+@media only screen and (max-width:500px) {
+    .suggest{
+        flex-direction: column;     
+    }
+    .suggest .col{
+        margin-top: 30px;
+        text-align: center;
+    }
+}
