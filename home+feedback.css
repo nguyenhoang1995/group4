@@ -197,8 +197,62 @@ a{
     box-shadow: 1px 1px 10px #b9b6b6;
 }
 
-
+/* CSS FILTER BUTTON */
+#fil{
+    position: relative;
+    width: 30px;
+    height: 10px;
     
+    outline: none;
+    background: rgb(207, 205, 205);
+    -webkit-appearance: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: -5px -5px 20px rgba(225,225,225,0.1),
+                inset -2px -2px 5px rgba(225,225,225,0.1),
+                inset 2px 2px 5px rgb(239, 239, 241),
+                0 0 0 2px #b3b0b0;
+                transition:0.5s;
+}
+#fil:checked{
+    background: #2196f3;
+}
+#fil::before{
+    content:'';
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 17px;
+    height: 10px;
+    background:linear-gradient(to top,white,white);
+    border-radius: 20px;
+    box-shadow: 0 0 0 1px #eeecec;
+    transform: scale(0.98,0.96);
+    transform: 0.5s;
+}
+#fil:checked::before{
+    left: 13px;
+
+}
+#fil::after{
+    content: '';
+    position:absolute;
+    left: 4px;
+    top: calc(50% - 2px);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #555;
+    
+
+}
+#fil:checked::after{
+left: calc(15px + 7px);
+background: #2196f3;
+
+}
+
+    /*-----  */
 #content_imgs img{
     object-fit: cover;
     object-position: left;
@@ -210,16 +264,16 @@ a{
 }
 
 
-#content_info button{
+ #content_info button{
     padding: 3px;
     border-radius: 0.6em;
     float: right;
 
-}
-#content_info button:hover{
+} 
+ #content_info button:hover{
     background-color: rgb(112, 155, 240);
     border: grey 1.5px solid;
-}
+} 
 
 
 
@@ -243,10 +297,11 @@ a{
     font-weight: bold;
 }
 
+
 #content_info h5 {
-    text-shadow: 0px 5px 3px rgb(184, 147, 78);
+    text-shadow: 1px 2px 5px #798ce2;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Aclonica', sans-serif;
     text-transform: uppercase;
     
 
@@ -255,6 +310,46 @@ a{
 .col-9 p {
     text-align: right;
     color: gray;
+}
+
+/* CSS FOR "Click to see more" button */
+.clearButton{
+    position: relative;
+    display: inline-flex;
+    padding: 7px 15px;
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    overflow: hidden;
+    border: #555 1px solid;
+    border-radius: 4px;
+    background-color: rgb(234, 234, 234);
+
+}
+
+.clearButton span{
+    position: relative;
+    z-index: 1;
+}
+
+.clearButton::before{
+    content: "";
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: #2196f3;
+    transition: width 0.5s, height 0.5s;
+}
+
+.clearButton:hover::before{
+    width: 400px;
+    height: 300px;
 }
 
 /* CSS for MODAL */
@@ -476,7 +571,7 @@ footer .wave{
     left: 0;
     width: 100%;
     height: 50%;
-    background: url(wave.png);
+    background: url(Images/wave.png);
     background-size: 1000px 100px;
   
 }

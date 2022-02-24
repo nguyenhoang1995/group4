@@ -88,8 +88,8 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="Bridges Infor/Tsing Ma Bridge/Images/490951.jpg"
-                        alt="Tsing Ma Bridge" class="d-block" style="width:100%">
+                    <img src="Bridges Infor/Tsing Ma Bridge/Images/490951.jpg" alt="Tsing Ma Bridge" class="d-block"
+                        style="width:100%">
                     <div class="carousel-caption">
                         <h3>Tsing Ma Bridge</h3>
                         <p>Hong Kong</p>
@@ -118,71 +118,88 @@
             </a>
         </div>
         <div class="row" id="content_top_ads"><a href="https://www.easemytrip.com/coupon.html" target="new"><img
-                    src="flight booking 2.png"></a></div>
+                    src="Images/flight booking 2.png"></a></div>
         <!-- Filter -->
 
         <div class="row" ng-controller='searchCTR'>
-            <div class="col-md-2">
-                <div class="frmFiled">
+            <div class="col-lg-2">
+                <div class="row">
+                    <div class="frmFiled">
 
-                    <input type="text" class="frmInput" name="sname" id="sname" ng-model="searchName"
-                        placeholder="search Name ">
-                    <div style="margin-left: 4px;">
-                        <i class="far fa-search"></i>
+                        <input style="padding: 3px;" type="text" class="frmInput" name="sname" id="sname"
+                            ng-model="searchName" placeholder="search Name ">
+                        <div style="margin-left: 4px;">
+                            <i class="far fa-search"></i>
+
+                        </div>
 
                     </div>
-
                 </div>
-
-
 
                 <div class="row">
-                    <span
-                        style="font-family: cursive; text-shadow:0px 5px 3px rgb(184 147 78);font-weight: normal;">Sort
-                        by:</span> <br>
-                    <div class=" search">
-
-                        <input type="radio" class="sort" name="sort" ng-model="sort" value="name"><span> Name</span><br>
-                        <input type="radio" class="sort" name="sort" ng-model="sort" value="rlength"><span>
-                            Length</span><br>
-                        <input type="radio" class="sort" name="sort" ng-model="sort" value="rheight"><span>
-                            Height</span><br><br>
-                    </div>
-
-                    <span
-                        style="font-family: cursive; text-shadow:0px 5px 3px rgb(184 147 78);font-weight: normal;">Search
-                        National:</span> <br>
-                    <div class="search">
-                        <input type="radio" class="sort" name="sort" ng-model="nation" value="Japan"><img id="flag"
-                            src="https://cdn.countryflags.com/thumbs/japan/flag-400.png"> Japan<br>
-                        <input type="radio" class="sort" name="sort" ng-model="nation" value="America"><img id="flag"
-                            src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png">
-                        Armerica<br>
-                        <input type="radio" class="sort" name="sort" ng-model="nation" value="Italy"><img id="flag"
-                            src="https://cdn.countryflags.com/thumbs/italy/flag-400.png"> Italy<br>
-                        <input type="radio" class="sort" name="sort" ng-model="nation" value="England"><img id="flag"
-                            src="https://cdn.countryflags.com/thumbs/england/flag-400.png"> England<br>
-                        <input type="radio" class="sort" name="sort" ng-model="nation" value="Hong Kong"><img id="flag"
-                            src="https://cdn.countryflags.com/thumbs/hongkong/flag-400.png"> HongKong<br>
-                        <input type="radio" class="sort" name="sort" ng-model="nation" value="China"><img id="flag"
-                            src="https://cdn.countryflags.com/thumbs/china/flag-400.png"> China<br>
-                        <input type="radio" class="sort" name="sort" ng-model="nation" value="France"><img id="flag"
-                            src="https://cdn.countryflags.com/thumbs/france/flag-400.png"> France<br>
-                        <input type="radio" class="sort" name="sort" ng-model="nation" value="Australia"><img id="flag"
-                            src="https://cdn.countryflags.com/thumbs/australia/flag-400.png"> Australia<br><br>
-                    </div>
-                    <div class="clear">
-
-                        <input
-                            style="font-family: cursive; text-shadow:0px 5px 3px rgb(184 147 78);font-weight: normal;"
-                            type="button" id="btnSubmit" value="CLEAR FILTER" ng-click='reset()'><br>
+                    <div class="col-lg-12 col-md-6 col-sm-6 col-6">
+                        <span style="font-family: 'Aclonica', sans-serif; font-weight: normal;">Search
+                            National:</span> <br>
+                        <div class="search">
+                            <!--  -->
+                           
+                                <div class="filter">
+                                    <input type="checkbox" id="fil" ng-model="cat1" value="japan" checked ng-click="choose()" class="cat"><img id="flag"
+                                    src="https://cdn.countryflags.com/thumbs/japan/flag-400.png"> Japan <br>
+                                    <input type="checkbox" id="fil" ng-model="cat2" value="america" checked ng-click="choose()" class="cat"><img
+                                    id="flag"
+                                    src="https://cdn.countryflags.com/thumbs/united-states-of-america/flag-400.png"> America
+                                    <br>
+                                    <input type="checkbox" id="fil" ng-model="cat3" value="italy" checked ng-click="choose()" class="cat"><img id="flag"
+                                    src="https://cdn.countryflags.com/thumbs/italy/flag-400.png"> Italy
+                                    <br>
+                                    <input type="checkbox" id="fil" ng-model="cat4" value="england" checked ng-click="choose()" class="cat"><img
+                                    id="flag" src="https://cdn.countryflags.com/thumbs/england/flag-400.png"> England
+                                    <br>
+                                    <input type="checkbox" id="fil" ng-model="cat5" value="hongkong" checked ng-click="choose()" class="cat"><img
+                                    id="flag" src="https://cdn.countryflags.com/thumbs/hongkong/flag-400.png"> HongKong
+                                    <br>
+                                    <input type="checkbox" id="fil" ng-model="cat6" value="china" checked ng-click="choose()" class="cat"><img id="flag"
+                                    src="https://cdn.countryflags.com/thumbs/china/flag-400.png"> China
+                                    <br>
+                                    <input type="checkbox" id="fil" ng-model="cat7" value="france" checked ng-click="choose()" class="cat"><img id="flag"
+                                    src="https://cdn.countryflags.com/thumbs/france/flag-400.png"> France
+                                    <br>
+                                    <input type="checkbox" id="fil" ng-model="cat8" value="australia" checked ng-click="choose()" class="cat"><img
+                                    id="flag" src="https://cdn.countryflags.com/thumbs/australia/flag-400.png"> Australia
+                                    <br>
+                                </div>
+                            
+                            
+                            
+                        </div>
 
                     </div>
+                    <div class="col-lg-12 col-md-6 col-sm-6 col-6">
+                        <span style="font-family: 'Aclonica', sans-serif;font-weight: normal;">Sort
+                            by:</span> <br>
+                        <div class=" search">
+
+                            <input type="radio" class="sort" id="fil" name="sort" ng-model="sort" value="name"><span>
+                                Name</span><br>
+                            <input type="radio" class="sort" id="fil" name="sort" ng-model="sort" value="rlength"><span>
+                                Length</span><br>
+                            <input type="radio" class="sort" id="fil" name="sort" ng-model="sort" value="rheight"><span>
+                                Height</span><br><br>
+                        </div>
+                        <div class="clear">
+
+                            <button style="font-family: 'Aclonica', sans-serif; font-weight: normal;"
+                                class="clearButton" id="btnSubmit" value="CLEAR FILTER" ng-click='reset()'><span>Clear
+                                    All</span></button><br>
+
+                        </div>
+                    </div>
+
                 </div>
-
             </div>
             <!-- Content -->
-            <div class="col-md-8 content">
+            <div class="col-lg-8 col-md-9 content">
                 <div class="row" id="content_parts"
                     ng-repeat="x in ds | filter:{name: searchName, country: nation} | orderBy: sort">
                     <div class="col-sm-6" id=content_imgs>
@@ -212,8 +229,9 @@
                                     <li><span>city: </span>{{x.city}}</li>
                                     <li><span>country: </span>{{x.country}}</li>
                                     <li><span>height: </span>{{x.height}}</li>
-                                    <button class="btn btn-primary" id="{{x.id}}" ng-click="view(x.id)">click to see
-                                        more</button>
+                                    <span><button class="btn btn-primary" id="{{x.id}}" ng-click="view(x.id)">click to
+                                            see
+                                            more</button></span>
 
                                 </ul>
                             </div>
@@ -225,13 +243,13 @@
             </div>
 
             <!-- ads -->
-            <div class="col-md-2 ">
+            <div class="col-lg-2 col-md-3 ">
                 <div class="col">
                     <a href="https://www.easemytrip.com/coupon.html" class="content_ads" target="_blank"><img
-                            src="flight booking.png" alt="ads flight"></a>
+                            src="Images/flight booking.png" alt="ads flight"></a>
 
                     <a href="https://vaniks.com/home/product_view/774/Online-Bus-booking-and-Reservation-system"
-                        class="content_ads" target="_blank"><img src="bus booking.jpeg" alt="ads bus"></a>
+                        class="content_ads" target="_blank"><img src="Images/bus booking.jpeg" alt="ads bus"></a>
                 </div>
 
                 <div class="col"> </div>
@@ -261,7 +279,7 @@
                     <div class="modal-footer">
                         <!-- dowload button -->
 
-                        
+
                         <!-- close button -->
                         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                     </div>
@@ -272,4 +290,15 @@
     </div>
 </div>
 
-</div>
+<!-- script for Clear all button in filter -->
+<script>
+    const button = document.querySelector('.clearButton');
+    button.onmousemove = function (e) {
+        const x = e.pageX - button.offsetLeft;
+        const y = e.pageY - button.offsetTop;
+
+        button.style.setProperty('--x', x + 'px');
+        button.style.setProperty('--y', y + 'px');
+    }
+
+</script>
