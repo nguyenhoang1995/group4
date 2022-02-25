@@ -19,48 +19,10 @@ h1 {
   font-family: 'Modern Antiqua', cursive;
 }
 
-/* Title animation
-.Gallery{
-  padding: 20px 0;
-  border-bottom: rgb(224, 221, 221) solid 1px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.Gallery h1{
-  font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  position: relative;
-  font-size: 7vw;
-  color: #252839;
-  -webkit-text-stroke: 0.3vw #383d52;
-  text-transform: uppercase;
- }
-.Gallery h1::before{
-  content: attr(data-text);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  color: crimson;
-  -webkit-text-stroke: 0.3vw #383d52;
-  border-right: 2px solid crimson;
-  overflow: hidden;
-  animation: animate 7s linear infinite;
-}
-@keyframes animate{
-  0%,10%,100%{
-      width: 0;
-  }
-  70%,90%{
-      width: 100%;
-  }
-} */
 
 /* line animation */
-h1::before {
+.galer::before {
   content: "";
   position: absolute;
   width: 100px;
@@ -69,10 +31,10 @@ h1::before {
   bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
-  animation: animate 4s linear infinite;
+  animation: animate1 4s linear infinite;
 }
 
-@keyframes animate {
+@keyframes animate1 {
   0% {
     width: 100px;
   }
