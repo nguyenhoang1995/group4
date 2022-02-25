@@ -20,7 +20,7 @@ github report link: https://github.com/nguyenhoang1995/group4/tree/master/Docume
 
 ============================
 
-eProject published at https://nguyenhoang1995.github.io/group4/Index
+eProject published at https://nguyenhoang1995.github.io/group4/feedback
 
 ============================
 
