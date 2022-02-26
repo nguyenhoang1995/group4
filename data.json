@@ -13,8 +13,8 @@
             "rheight":282.8,
             "pic1":"Bridges Infor/Akashi-Kaikyo or Pearl Bridge/Images/Akashi_Bridge.jpg",
             "infor1":"Bridges Infor/Akashi-Kaikyo or Pearl Bridge/Information/Akashi-Kaikyo or Pearl Bridge.pdf",
-            "type": "japan",
-            "map":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.47367883387!2d135.01948641464574!3d34.61746828045594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000824134f53bcd%3A0xaeaac1c733d78c3f!2sC%E1%BA%A7u%20Akashi-Kaikyo!5e0!3m2!1svi!2s!4v1645704816226!5m2!1svi!2s"
+            "type": "japan"
+
            },
           { "id": 2,
             "name": "Brooklyn",
@@ -28,8 +28,8 @@
             "rheight":82.9, 
             "pic1":"Bridges Infor/Brooklyn Bridge/Images/Brooklyn_Bridge_Manhattan.jpg",
             "infor1":"Bridges Infor/Brooklyn Bridge/Information/Brooklyn Bridge.pdf",
-            "type": "america",
-            "map":"b"
+            "type": "america"
+           
           },
           { "id": 3,
             "name": "Gateshead Millennium",
@@ -43,8 +43,7 @@
             "rheight":45,
             "pic1":"Bridges Infor/Gateshead Millennium Bridge/Images/Gateshead_millennium_bridge_open.jpg",
             "infor1":" Bridges Infor/Gateshead Millennium Bridge/Information/Gateshead-Millennium-Bridge.pdf",
-            "type": "england",
-            "map":"b"
+            "type": "england"
           },
           { "id": 4,
             "name": "Golden Gate",
@@ -58,8 +57,7 @@
             "rheight":227.4,
             "pic1":"Bridges Infor/Golden Gate Bridge/Images/3543x1772.jpg",
             "infor1":" Bridges Infor/Golden Gate Bridge/Information/Golden Gate Infor.pdf ",
-            "type": "america",
-            "map":"b"
+            "type": "america"
           },
           { "id": 5,
             "name": "Infinite",
@@ -73,8 +71,7 @@
             "rheight":40,
             "pic1":"Bridges Infor/Infinite Bridge/Images/Infinite2.jpeg",
             "infor1":" Bridges Infor/Infinite Bridge/Information/Infinite Infor.pdf ",
-            "type": "england",
-            "map":"b"
+            "type": "england"
            
           },
           { "id": 6,
@@ -89,8 +86,7 @@
             "rheight":4.4,
             "pic1":"Bridges Infor/Ponte Vecchio/Images/faruk-kaymak-wtj5WMvX2Gc-unsplash.jpg",
             "infor1":" Bridges Infor/Ponte Vecchio/Information/Ponte Vecchio.pdf ",
-            "type": "italy",
-            "map":"b"
+            "type": "italy"
           },
           { "id": 7,
             "name": "San Shan",
@@ -104,8 +100,7 @@
             "rheight":91,
             "pic1":"Bridges Infor/San Shan Bridge/Images/San Shan 3.jpeg",
             "infor1":" Bridges Infor/San Shan Bridge/Information/San Shan Infor.pdf ",
-            "type": "china",
-            "map":"b"
+            "type": "china"
           },
           { "id": 8,
             "name": "SYDNEY HARBOUR ",
@@ -119,8 +114,7 @@
             "rheight":134,
             "pic1":"Bridges Infor/Sydney Harbour Bridge/Images/leio-mclaren-ImhjEeh7pZg-unsplash.jpg",
             "infor1":" Bridges Infor/Sydney Harbour Bridge/Information/Sydney Harbour Bridge.pdf ",
-            "type": "australia",
-            "map":"b"
+            "type": "australia"
           },
           { "id": 9,
             "name": "TSING MA BRIDGE",
@@ -134,8 +128,7 @@
             "rheight":206,
             "pic1":"Bridges Infor/Tsing Ma Bridge/Images/Tsing_Ma_Bridge_2.jpg",
             "infor1":" Bridges Infor/Tsing Ma Bridge/information/Tsing Ma Bridge.pdf ",
-            "type": "hongkong",
-            "map":"b"
+            "type": "hongkong"
            
           },
           { "id": 10,
@@ -150,8 +143,7 @@
             "rheight":336.4,
             "pic1":"Bridges Infor/Viaduc de Millau Bridge/Images/Viaduc de Millau1.jpeg",
             "infor1":" Bridges Infor/Viaduc de Millau Bridge/Information/Viaduc de Millau Infor.pdf ",
-            "type": "france",
-            "map":"b"
+            "type": "france"
           }
     ]
 }

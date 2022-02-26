@@ -645,8 +645,7 @@ footer .wave#wave4{
         display: none;
     }
     .frmInput {
-        width: 100%;
-       
+        width: 100%; 
     }
     .search{
         flex-direction: column;
@@ -658,14 +657,11 @@ footer .wave#wave4{
       height: 200px;
     }
     #content_info {
-       
-        /* padding: 5px 0px 30px 30px; */
     height: 200px;
     }
 
     footer .wave{
-        top: -100px;
-        
+        top: -100px;   
     }
     p.footer_love{
         display: none;
